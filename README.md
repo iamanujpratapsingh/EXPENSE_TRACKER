@@ -2,55 +2,95 @@
 
 # 💰 Expense Tracker
 
-### A Modern Full-Stack MERN Expense Management Application
+### Modern Full-Stack MERN Expense Management Platform
 
-Track income, expenses, and financial insights with a clean dashboard, secure authentication, and an intuitive user experience.
+A secure, responsive, and production-ready expense tracking application built using the MERN Stack that helps users efficiently manage their personal finances through an intuitive dashboard and real-time transaction management.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit-success?style=for-the-badge)](https://expense-tracker-lsm1.vercel.app)
-[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)]()
-[![Node.js](https://img.shields.io/badge/Node.js-Express-green?style=for-the-badge&logo=node.js)]()
-[![MongoDB](https://img.shields.io/badge/MongoDB-Database-success?style=for-the-badge&logo=mongodb)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
+<p align="center">
 
-### 🔗 Live Preview
+<a href="https://expense-tracker-lsm1.vercel.app">
+<img src="https://img.shields.io/badge/🚀 Live Demo-Visit Success-00C853?style=for-the-badge"/>
+</a>
 
-### https://expense-tracker-lsm1.vercel.app
+<a href="https://github.com/iamanujpratapsingh/EXPENSE_TRACKER">
+<img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/anuj-pratap-singh-99a2581a9/">
+<img src="https://img.shields.io/badge/LinkedIn-Anuj%20Pratap%20Singh-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+---
+
+### 🌐 Live Application
+
+## **https://expense-tracker-lsm1.vercel.app**
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About The Project
 
-Expense Tracker is a **full-stack MERN application** that helps users efficiently manage their finances by recording income and expenses, monitoring transactions, and visualizing financial data through an intuitive dashboard.
+Expense Tracker is a full-stack web application designed to simplify personal finance management through a clean user interface, secure authentication, and efficient transaction tracking.
 
-The project emphasizes **clean architecture**, **responsive UI**, **secure authentication**, and **real-world CRUD operations**.
+Users can securely register, log in, record income and expenses, and monitor their financial activities from a centralized dashboard. The project follows modern web development practices including RESTful APIs, JWT Authentication, responsive design, and MongoDB integration.
+
+This project demonstrates practical full-stack development skills commonly required in software engineering roles.
 
 ---
 
-# ✨ Features
+# ✨ Key Features
 
-✅ Secure User Authentication (JWT)
+### 🔐 Authentication
 
-✅ User Registration & Login
+- Secure User Registration
+- JWT-based Authentication
+- Protected Routes
+- Secure Login System
 
-✅ Dashboard Overview
+### 💵 Expense Management
 
-✅ Add Income
+- Add Income
+- Add Expenses
+- Delete Transactions
+- Transaction History
+- Financial Summary
 
-✅ Add Expense
+### 📊 Dashboard
 
-✅ Transaction History
+- Clean Analytics Dashboard
+- Income Overview
+- Expense Overview
+- Balance Calculation
+- Recent Transactions
 
-✅ Financial Summary
+### ⚡ User Experience
 
-✅ Responsive Design
+- Responsive Design
+- Fast Loading
+- Mobile Friendly
+- Modern UI
+- Clean Navigation
 
-✅ Protected Routes
+---
 
-✅ RESTful APIs
+# 🏗 Architecture
 
-✅ MongoDB Database Integration
+```
+                React + Vite
+                      │
+                      │ REST API
+                      ▼
+              Express.js Server
+                      │
+                JWT Authentication
+                      │
+                      ▼
+                 MongoDB Database
+```
 
 ---
 
@@ -61,42 +101,50 @@ The project emphasizes **clean architecture**, **responsive UI**, **secure authe
 - React.js
 - Vite
 - JavaScript (ES6+)
-- CSS
+- HTML5
+- CSS3
+- Axios
 
 ## Backend
 
 - Node.js
 - Express.js
 - JWT Authentication
-- REST API
+- REST APIs
+- bcrypt.js
 
 ## Database
 
 - MongoDB
-- Mongoose
+- Mongoose ODM
 
-## Deployment
+## Tools
 
+- Git
+- GitHub
 - Vercel
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
 ```
-ExpenseTracker
+EXPENSE_TRACKER
 │
 ├── frontend
 │   ├── src
 │   ├── public
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── backend
-│   ├── routes
-│   ├── models
-│   ├── middleware
-│   ├── controllers
 │   ├── config
+│   ├── controllers
+│   ├── middleware
+│   ├── models
+│   ├── routes
+│   ├── utils
+│   ├── server.js
 │   └── package.json
 │
 └── README.md
@@ -109,7 +157,7 @@ ExpenseTracker
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/iamanujpratapsingh/EXPENSE_TRACKER.git
 ```
 
 ---
@@ -132,7 +180,7 @@ npm install
 
 ---
 
-## Run Backend
+## Start Backend
 
 ```bash
 npm start
@@ -140,71 +188,98 @@ npm start
 
 ---
 
-## Run Frontend
+## Start Frontend
 
 ```bash
 npm run dev
 ```
 
----
+Application runs at:
 
-# 📸 Screenshots
-
-> Add screenshots of:
-
-- Login Page
-- Dashboard
-- Add Expense
-- Add Income
-- Transaction History
-
-*(Recruiters love visuals.)*
+```
+http://localhost:5173
+```
 
 ---
 
-# 📌 Future Improvements
+# ⚙ Frontend
 
-- Email Verification
+This project uses **React + Vite** to provide a fast and modern development experience.
 
-- Password Reset
+### Features
 
-- Budget Planning
-
-- Spending Analytics
-
-- Charts & Graphs
-
-- Export Reports
-
-- Dark Mode
-
-- Monthly Financial Reports
+- Lightning-fast development with Vite
+- React Fast Refresh (HMR)
+- ESLint integration
+- Optimized production builds
+- Component-based architecture
+- Clean folder structure
 
 ---
 
-# 📈 Learning Outcomes
+# 🔒 Security
 
-During this project, I gained practical experience in:
-
-- Designing REST APIs
 - JWT Authentication
+- Password Hashing using bcrypt
+- Protected API Routes
+- Input Validation
+- Secure Database Operations
+
+---
+
+# 📈 Future Improvements
+
+- Expense Categories
+- Monthly Reports
+- Charts & Analytics
+- Email Verification
+- Forgot Password
+- Dark Mode
+- Export Reports (Excel/PDF)
+- Multi-Currency Support
+
+---
+
+# 💡 What I Learned
+
+Through this project I strengthened my understanding of:
+
+- Full Stack MERN Development
+- REST API Design
+- Authentication using JWT
 - MongoDB Data Modeling
-- State Management
-- Full Stack Development
 - CRUD Operations
-- Deployment with Vercel
+- Express Middleware
+- React Component Architecture
+- Deployment using Vercel
 - Git & GitHub Workflow
 
 ---
 
-# 👨‍💻 Developer
+# 🤝 Connect With Me
 
-**Anuj Pratap Singh**
+### 👨‍💻 Anuj Pratap Singh
 
-B.Tech Computer Science Engineering
+**Computer Science Engineering Student | Full Stack Developer**
 
-Full Stack Developer
+🌐 Live Demo
 
-📧 Connect with me on LinkedIn
+https://expense-tracker-lsm1.vercel.app
 
-⭐ If you found this project useful, consider giving it a Star!
+💼 LinkedIn
+
+https://www.linkedin.com/in/anuj-pratap-singh-99a2581a9/
+
+💻 GitHub
+
+https://github.com/iamanujpratapsingh
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+Made with ❤️ by **Anuj Pratap Singh**
+
+</div>
